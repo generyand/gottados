@@ -9,12 +9,15 @@
 
   body {
     background: rgb(37, 99, 235);
+    background: rgb(37, 99, 235);
     background: linear-gradient(
       0deg,
       rgba(37, 99, 235, 1) 0%,
       rgba(85, 200, 247, 1) 100%
     );
+  
     font-family: "Inter", sans-serif;
+    @apply text-gray-800 ;
     @apply text-gray-800;
   }
 
